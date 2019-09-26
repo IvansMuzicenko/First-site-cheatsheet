@@ -16,9 +16,52 @@ html, body {
     margin: 0;
 }
 
-.upimage img{
-    width: 100%;
-    height: 200px;
+div.upimage {
+    width: 1200px;
+    height: 300px;
+}
+
+.headericon img {
+    width: 300px;
+    height: 250px;
+    margin: 25px;
+}
+
+div.headertitles {
+    width: 850px;
+    height: 300px;
+    padding: 0;
+    float: right;
+}
+
+div.headertitles ul {
+    margin: 0;
+    padding: 25px 0;
+}
+
+li.lang {
+    list-style: none;
+    width: 700px;
+    margin: 25px;
+}
+
+li.lang a {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+    padding-bottom: 30px;
+    background: -webkit-linear-gradient(rgb(33, 11, 233), rgb(221, 9, 157));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a.eng {
+    padding-left: 100px;
+}
+
+a.lv {
+    padding-left: 200px;
 }
 
 .menu {
