@@ -1,10 +1,13 @@
 body {
-    background-image: linear-gradient( to right, rgb(58, 175, 204), rgb(180, 75, 75));
+    /* background-image: linear-gradient( to right, rgb(58, 175, 204), rgb(180, 75, 75)); */
+    background-image: url("../img/ask1.jpg");
+    background-repeat: repeat;
+    background-color: aquamarine;
 }
 
 main {
     overflow: hidden;
-    background-color: rgb(250, 235, 215);
+    background-color: rgba(0, 0, 0, 0.726);
     min-height: 700px;
     border: 2px solid silver;
 }
@@ -22,13 +25,13 @@ div.upimage {
 }
 
 .headericon img {
-    width: 300px;
+    width: 600px;
     height: 250px;
     margin: 25px;
 }
 
 div.headertitles {
-    width: 850px;
+    width: 550px;
     height: 300px;
     padding: 0;
     float: right;
@@ -40,9 +43,11 @@ div.headertitles ul {
 }
 
 li.lang {
+    background-color: rgba(0, 0, 0, 0.609);
     list-style: none;
-    width: 700px;
+    width: max-content;
     margin: 25px;
+    
 }
 
 li.lang a {
@@ -56,18 +61,21 @@ li.lang a {
     -webkit-text-fill-color: transparent;
 }
 
-a.eng {
+/* a.eng {
     padding-left: 100px;
+    float: center;
 }
 
 a.lv {
     padding-left: 200px;
-}
+    float: right;
+} */
 
 .menu {
-    background-image: linear-gradient(green, aquamarine);
+    /* background-image: linear-gradient(green, aquamarine); */
+    background-color: rgba(0, 0, 0, 0.418);
     height: auto;
-    background-color: rgba(255, 228, 196, 0);
+    /* background-color: rgba(255, 228, 196, 0); */
     margin: 15px 0;
 }
 
@@ -82,6 +90,7 @@ nav ul li {
 }
 
 nav ul li a {
+    color: white;
     font-weight: bold;
     font-style: italic;
     font-size: 25px;  
@@ -127,7 +136,7 @@ h1.topics {
 
 h1.topics a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-style: papyrus;
 }
 
