@@ -29,7 +29,7 @@ div.upimage {
 }
 
 .headericon img {
-    width: 600px;
+    width: 500px;
     height: 250px;
     margin: 25px;
 }
@@ -100,6 +100,7 @@ nav ul li a {
     font-weight: bold;
     font-style: italic;
     font-size: 25px;  
+    text-decoration: none;
 }
 
 .active {
@@ -119,8 +120,13 @@ aside {
     height: 100%;
     float: right;
     background-color: rgba(192, 192, 192, 0.644);
-    border: 2px solid darkslategrey;
+    border: 2px solid rgba(255, 255, 255, 0.568);
     margin: 25px;
+}
+
+aside h2 {
+    color: white;
+    text-decoration: underline;
 }
 
 aside ul {
@@ -131,6 +137,7 @@ aside ul li a {
     font-size: 20px;
     font-weight: bold;
     font-style: initial;
+    text-decoration: none;
 
 }
 
@@ -227,10 +234,16 @@ div.QA1 ul li, div.QA2 ul li {
 /* FOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOTER */
 footer {
     height: 40px;
-    background-color: rgba(5, 46, 12, 0.787);
+    background-color: rgba(0, 0, 0, 0.486);
     margin-top: 25px;
     text-align: end;
     border: 2px solid silver;
     padding: 2px;
     margin: auto;
+}
+
+footer p {
+    color: white;
+    font-size: 30px;
+    margin: 2px;
 }
