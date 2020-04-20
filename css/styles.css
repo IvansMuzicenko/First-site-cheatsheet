@@ -1,8 +1,11 @@
 body {
     /* background-image: linear-gradient( to right, rgb(58, 175, 204), rgb(180, 75, 75)); */
     background-image: url("../img/ask1.jpg");
-    background-repeat: repeat;
     background-color: aquamarine;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: auto;
 }
 
 main {
@@ -56,7 +59,7 @@ li.lang a {
     font-size: 40px;
     text-decoration: none;
     padding-bottom: 30px;
-    background: -webkit-linear-gradient(rgb(33, 11, 233), rgb(221, 9, 157));
+    background: -webkit-linear-gradient(rgb(0, 255, 170), rgb(140, 0, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -112,7 +115,7 @@ aside {
     width: 250px;
     height: 100%;
     float: right;
-    background-color: silver;
+    background-color: rgba(192, 192, 192, 0.644);
     border: 2px solid darkslategrey;
     margin: 25px;
 }
@@ -202,7 +205,7 @@ div.QA1 ul li, div.QA2 ul li {
 }
 
 .QA1, .QA2 {
-    background-color: rgb(236, 221, 200)
+    background-color: rgba(255, 255, 255, 0.582)
 }
 
 .questions {
@@ -221,9 +224,10 @@ div.QA1 ul li, div.QA2 ul li {
 /* FOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOTER */
 footer {
     height: 40px;
-    background-color: cornflowerblue;
+    background-color: rgba(5, 46, 12, 0.787);
     margin-top: 25px;
     text-align: end;
     border: 2px solid silver;
     padding: 2px;
+    margin: auto;
 }
