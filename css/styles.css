@@ -1,7 +1,7 @@
 body {
     /* background-image: linear-gradient( to right, rgb(58, 175, 204), rgb(180, 75, 75)); */
     background-image: url("../img/ask1.jpg");
-    background-color: aquamarine;
+    background-color: rgba(0, 0, 0, 0.116);
     background-attachment: fixed;
     background-position: center;
     background-repeat: repeat;
@@ -117,11 +117,15 @@ nav ul li a {
 
 aside {
     width: 250px;
-    height: 100%;
-    float: right;
-    background-color: rgba(192, 192, 192, 0.644);
+    height: auto;
+    background-color: rgba(192, 192, 192, 0.452);
     border: 2px solid rgba(255, 255, 255, 0.568);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: fixed;
     margin: 25px;
+    margin-left: 48%;
+    margin-bottom: 20%;
 }
 
 aside h2 {
@@ -159,6 +163,7 @@ h1.topics a {
     float: left;
     background-color: silver;
     border: 1px solid black;
+    border-radius: 15%;
     margin-left: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
