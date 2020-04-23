@@ -5,7 +5,8 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: repeat;
-    background-size: auto;
+    background-size: 20%;
+    
 }
 
 main {
@@ -13,6 +14,7 @@ main {
     background-color: rgba(0, 0, 0, 0.726);
     min-height: 700px;
     border: 2px solid silver;
+    border-radius: 15px;
 }
 
 /* но не обязательно body */
@@ -23,8 +25,8 @@ html, body {
 }
 
 div.upimage {
-    width: 1200px;
-    height: 300px;
+    /* width: 1200px; */
+    height: auto;
     background-color: rgba(0, 0, 0, 0.13);
 }
 
@@ -65,23 +67,12 @@ li.lang a {
     -webkit-text-fill-color: transparent;
 }
 
-/* a.eng {
-    padding-left: 100px;
-    float: center;
-}
-
-a.lv {
-    padding-left: 200px;
-    float: right;
-} */
-
 .menu {
-    /* background-image: linear-gradient(green, aquamarine); */
     background-color: rgba(0, 0, 0, 0.418);
     height: auto;
-    /* background-color: rgba(255, 228, 196, 0); */
     margin: 15px 0;
     border: white solid 2px;
+    border-radius: 15px;
 }
 
 nav ul {
@@ -109,23 +100,25 @@ nav ul li a {
 }
 
 .layout {
-    width:1200px;
-    height:auto;
+    width: 65%;
+    height: auto;
     margin: 0 auto 30px auto;
-    overflow:hidden
+    overflow: hidden;
 }
 
 aside {
-    width: 250px;
-    height: auto;
-    background-color: rgba(192, 192, 192, 0.452);
+    width: 15%;
+    height: 800px;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.603);
     border: 2px solid rgba(255, 255, 255, 0.568);
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-radius: 15px;
     position: fixed;
     margin: 25px;
-    margin-left: 48%;
-    margin-bottom: 20%;
+    top: 0;
+    right: 0;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 aside h2 {
@@ -158,12 +151,12 @@ h1.topics a {
 }
 
 .section {
-    width: 400px;
+    width: 30%;
     height: 250px;
     float: left;
     background-color: silver;
     border: 1px solid black;
-    border-radius: 15%;
+    border-radius: 5%;
     margin-left: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -175,6 +168,7 @@ h1.topics a {
     display: block;
     width: 100%;
     height: 100%;
+    border-radius: 5%;
 }
   
 .overlay {
@@ -188,6 +182,7 @@ h1.topics a {
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(35, 148, 192, 0.726);
+    border-radius: 5%;
 }
 
 .section:hover .overlay {
