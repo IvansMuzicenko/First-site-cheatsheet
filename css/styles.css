@@ -13,8 +13,12 @@ body {
     background-position: center;
     background-repeat: repeat;
     background-size: 22%;
+}
 
-    
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 /* ----------------------------------------------RESPONSIVITY ------------------------------------------------------ */
 @media screen and (min-width: 993px) {
